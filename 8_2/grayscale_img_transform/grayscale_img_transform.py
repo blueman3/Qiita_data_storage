@@ -20,4 +20,4 @@ cv2.waitKey() #window closeボタンが押されるまで待機
 plt.hist(grayscale_val,ec='black') #グレースケールのヒストグラムを表示
 plt.show()
 
-cv2.imwrite('./grayscale_img_transform.jpg',img_grayscale)
+cv2.imwrite('./grayscale_img_transform.jpg',img_grayscale) #グレースケール変換画像の保存

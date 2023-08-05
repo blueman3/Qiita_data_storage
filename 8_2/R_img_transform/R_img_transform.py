@@ -31,4 +31,4 @@ plt.subplot(223,title="Red") #2×2のグラフ領域の左下に赤(R)のヒス�
 plt.hist(red_val,ec='black') #赤(R)のヒストグラムのグラフの枠線を黒(black)に設定
 plt.show() #全体のヒストグラムを表示
 
-cv2.imwrite('./R_img_transform.jpg',img)
+cv2.imwrite('./R_img_transform.jpg',img) #R変換画像の保存

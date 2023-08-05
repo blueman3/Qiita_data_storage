@@ -62,4 +62,4 @@ plt.plot(x,y_b) #任意の関数のx=bでの接線を描画
 plt.scatter(x_inter,y_inter) #2つの接線の交点を描画
 
 #plt.plot(x,np.zeros(len(x))) #コメントアウトを外すとx=0の直線を描画
-plt.show()
+plt.show() #グラフ表示

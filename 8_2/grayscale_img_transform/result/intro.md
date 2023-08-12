@@ -1,2 +1,2 @@
-grayscale_img_histogram.pngは、実行結果のヒストグラムでの表示
+grayscale_img_histogram.pngは、実行結果のヒストグラムでの表示<br>
 grayscale_img_transform.jpgは、変換した画像データ

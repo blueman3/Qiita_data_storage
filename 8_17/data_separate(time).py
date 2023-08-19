@@ -1,9 +1,10 @@
 import os                                                                                             #ファイル操作のためにインポート
 import datetime                                                                                       #ファイルの更新月日を取得するためにインポート
 from tkinter import *                                                                                 #tkinterライブラリのすべてのモジュールをインポート
+from tkinter import filedialog
 from tkcalendar import DateEntry                                                                      #tkcalendarの入力を取得するためにインポート
 
-dir = "./python"                                                                                      #フォルダの指定
+dir = filedialog.askdirectory(initialdir='C:\\')                                                      #-*追加部分*-フォルダの指定(tkinter.filedialogを使ったフォルダダイアログで指定(初期フォルダをC:\としている))
 
 root=Tk()                                                                                             #tkinterのセットアップ
 root.title("カレンダー")                                                                              #「カレンダー」という名前のウインドウを作成
@@ -32,6 +33,6 @@ def func(event):                                                                
 
 date_form.bind("<<DateEntrySelected>>",func)                                                          #tkcalendarでのカレンダーで任意の日付が押されたときに処理関数(func)を実行
 
-date_form.pack()                                                                                      #カレンダー形式で作成したウィジェット(date_form)を画面上に配置
 
+date_form.pack()                                                                                      #カレンダー形式で作成したウィジェット(date_form)を画面上に配置
 root.mainloop()                                                                                       #GUIの表示(この処理がないと一瞬表示されて消えるので表示されていないように見える)

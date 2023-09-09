@@ -1,9 +1,5 @@
 # 説明
 
-<<<<<<< HEAD
-=======
-`.gitkeep`というディレクトリは、間違えて作ってしまったディレクトリです(すみません)<br><br>
->>>>>>> parent of 2d5fb49 (Merge branch 'main' of https://github.com/blueman3/Qiita_data_storage)
 
 このリポジトリでは、<ins>**Qiitaに載せたソースコードや関連するデータ**</ins>を保存しています!!<br><br>
 - ディレクトリの名前は<ins>**Qiitaの投稿日**</ins>です!!<br><br>

@@ -16,5 +16,5 @@ ex)<br>「 **`B_img_transform`** 」→「青(<ins>**`B`**</ins>lue)の変換(<i
 ---------------------
 
 <ins>**intro.md**の説明</ins>
-- <ins>**intro.md**</ins>には、それぞれの<ins>**画像の説明**</ins>が記載されています!!
+- <ins>**intro.md**</ins>には、それぞれの<ins>**画像(動画)の説明**</ins>が記載されています!!
 
